@@ -1,0 +1,505 @@
+body{
+    background-image: url(pexels-nur-demirbaş-19976822.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+ 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+   
+}
+/*nav bar*/
+nav{
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    
+    background-color: whitesmoke;
+    margin-top: -1vh;
+    height: 6vh;
+    justify-content: center;
+}
+nav li{
+    display: flex;
+    align-items: center;
+    font-size: 1.3vh;
+}
+nav a{
+    align-items: center;
+    display: flex;
+    
+}
+nav ul{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.landing h1{
+    text-align: center;
+    font-size: 5vw;
+}
+.landing button{
+    border-radius: 20px;
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 30vw;
+    text-decoration: none;
+    background: transparent;
+    padding: 10px;
+    
+}
+.landing button a {
+    text-decoration: none;
+    color: black;
+}
+.icon svg{
+    margin-top: 20vh;
+    padding: 3vw;
+    size: 4;
+}
+nav img{
+            height: 2.4vh;
+            margin: 3vh;
+}
+/*nav bar-end*\
+
+
+/*landing*/
+
+.hero{
+    background-color:whitesmoke;
+    height: 50vh;
+    position: relative;
+    margin-top: 8vh;
+    
+}
+.store h1{
+    margin: 6vw;
+    font-size: 2.7vw;   
+    font-family: Arial, Helvetica, sans-serif;   
+    margin-top: 10vh;
+    position: absolute;
+}
+
+.store span{
+    font-size: 2.7vw;
+    opacity: 50%; 
+}
+.gallary img{
+   margin: -5vw;
+    margin-top: 30vh;
+    margin-left: 6vw;
+   height: 8vh;
+   width: 6vw;
+}
+.slidbar{
+
+    background-color: white;
+}
+.slidbar h5{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -6vh;
+    position: absolute;
+    margin-left: 35vw;
+}
+.h {
+    display: flex;
+    justify-content: right;
+    margin-right: 5vw;
+   margin-top: -20vh;
+}
+.h img{
+    height: 4vh;
+    width: 2vw;
+}
+.h h5{
+    font-size: -1vw;
+    margin-top: -0vh;
+}
+
+.f {
+    display: flex;
+    justify-content: right;
+    margin-right: 5.4vw;
+   margin-top: -1vh;
+}
+.f img{
+    height: 4vh;
+    width: 2vw;
+    
+}
+.f h5{
+    font-size: -1vw;
+    margin-top: -0vh;
+   
+}
+
+
+/*card*/
+
+.card h1{
+    margin: 6vw;
+    font-size: 1.5vw;   
+    font-family: Arial, Helvetica, sans-serif;   
+    margin-top: 0vh;
+    position: absolute;
+}
+
+.card span{
+    font-size: 1.5vw;
+    opacity: 50%; 
+}
+.card{
+    height: 80vh;
+    background-color: whitesmoke;
+  
+}
+.cards{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.first{
+    height: 50vh;
+    width: 20vw;
+   box-shadow:2px 2px ;
+    margin-top: 6vh;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692910040844);
+}
+.sec{
+    height: 50vh;
+    width: 20vw;
+ 
+    margin-top: 6vh;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692719973220);
+}
+.thir{
+    height: 50vh;
+    width: 20vw;
+   
+    margin-top: 6vh;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-macbook-pro-202310?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1696964122967);
+}
+.four{
+    height: 50vh;
+    width: 20vw;
+    
+    margin-top: 6vh;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-bhm-202401?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1703005205962);
+}
+.five{
+    height: 50vh;
+    width: 20vw;
+    
+    margin-top: 6vh;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-image: url();
+}
+.six{
+    height: 50vh;
+    width: 20vw;
+   
+    margin-top: 6vh;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-image: url();
+}
+.first h5{
+        color: white;
+        text-align: left;
+        margin-left: 1.51vw;
+}
+.first h1{
+    color: white;
+    margin-top: -1vh;
+    text-align: left;
+    margin-left: 1.51vw;
+}
+.first h2{
+    color: white;
+    text-align: left;
+    margin-top: 5vh;
+    margin-left: 1.51vw;
+}
+.sec h5{
+   
+    text-align: left;
+    margin-left: 1.51vw;
+}
+.sec h1{
+
+margin-top: -1vh;
+text-align: left;
+margin-left: 1.51vw;
+}
+.sec h2{
+
+text-align: left;
+margin-top: 5vh;
+margin-left: 1.51vw;
+}
+
+.thir h5{
+   
+    text-align: left;
+    margin-left: 1.51vw;
+}
+.thir h1{
+
+margin-top: -1vh;
+text-align: left;
+margin-left: 1.51vw;
+}
+.thir h2{
+
+text-align: left;
+margin-top: 9vh;
+margin-left: 1.51vw;
+}
+
+.four h5{
+   color: white;
+    text-align: left;
+    margin-left: 1.51vw;
+}
+.four h1{
+    color: white;
+margin-top: -1vh;
+text-align: left;
+margin-left: 1.51vw;
+}
+.four h2{
+    color: white;
+text-align: left;
+margin-top: 6vh;
+margin-left: 1.51vw;
+}
+
+/*card2*/
+
+.card2 h1{
+    margin: 6vw;
+    font-size: 1.5vw;   
+    font-family: Arial, Helvetica, sans-serif;   
+    margin-top: -19vh;
+    position: absolute;
+    color: red;
+}
+
+.card2 span{
+    font-size: 1.5vw;
+    opacity: 50%; 
+    color: black;
+}
+.card2{
+    height: 45vh;
+    background-color: whitesmoke;
+  
+}
+.cardss{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.first1{
+    height: 50vh;
+    width: 20vw;
+    margin-top: -10vh;
+   background-position: center;
+    
+   justify-content: space-between;
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/store-card-40-valentines-day-202401?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1704320151744);
+}
+.sec2{
+    height: 50vh;
+    width: 17vw;
+    background:white;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -10vh;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/homepod-mini-select-orange-202110?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1632925511000);
+}
+.thir3{
+    height: 50vh;
+    width: 17vw;
+    background:white;
+    background-repeat: no-repeat;
+
+    background-position-x: 8vh;
+    background-position-y: 8vh;
+    margin-top: -10vh;
+    justify-content: space-between;
+    border-radius: 20px;
+
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT253?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1692994342983);
+}
+.four4{
+    height: 50vh;
+    width: 17vw;
+    background:white;
+    background-repeat: no-repeat;
+    background-position-x: 8vh;
+    background-position-y: 8vh;
+    margin-top: -10vh;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MUUK3ref?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1692860464963);
+}
+.five5{
+    height: 50vh;
+    width: 17vw;
+    background:white;
+    background-repeat: no-repeat;
+    background-position-x: 8vh;
+    background-position-y: 8vh;
+    margin-top:-10vh;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MT4J3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1693594197616);
+}
+  
+
+
+
+
+.first1 h5{
+    opacity: 50%;
+    text-align: left;
+    margin-left: 1.51vw;
+}
+.first1 h2{
+    font-size: 1.3vw;
+    margin-left: 1.51vw;
+}
+.sec2 h2{
+   margin-top: 35vh;
+    text-align: left;
+    margin-left: 2vw;
+    font-size: 1vw;
+}
+.sec2 h6{
+opacity: 50%;
+font-size: .7vw;
+text-align: left;
+margin-left: 2vw;
+margin-top: 6vh;
+}
+
+.thir3 h5{
+    opacity: 50%;
+    font-size: .7vw;
+    text-align: left;
+    margin-left: 2vw;
+   
+   
+}
+.thir3 h2{
+    margin-top: -2.5vh;
+    text-align: left;
+    margin-left: 2vw;
+    font-size: 1vw;
+
+}
+.thir3 h6{
+    margin-top: 33vh;
+    margin-left: 2vw;
+    color: brown;
+    }
+    
+
+
+.four4 h2{
+    margin-top: 35vh;
+    text-align: left;
+    margin-left: 2vw;
+    font-size: .9vw;
+
+
+}
+
+.four4 h5{
+    opacity: 50%;
+    font-size: .7vw;
+    text-align: left;
+    margin-left: 2vw;
+}
+
+.five5 h5{
+    opacity: 50%;
+    font-size: .7vw;
+    text-align: left;
+    margin-left: 2vw;
+   
+   
+}
+.five5 h2{
+    margin-top: -2.5vh;
+    text-align: left;
+    margin-left: 2vw;
+    font-size: 1vw;
+
+}
+.five5 h6{
+    margin-top: 33vh;
+    margin-left: 2vw;
+    color: brown;
+    }
+
+
+
+.footer button{
+    border-radius: 20px;
+    font-size: .9vw;
+    padding: .5vw;
+    left: 5vw;
+
+    
+    background-color: gainsboro;
+    border: none;
+}
+.footer button a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.footer p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 8vh;
+}
+.footer {
+    
+    background-color: whitesmoke;
+    width: 100%;
+   
+}
+.footer h1{
+    margin-left: 5vw;
+}
+
+.info h1,button{
+    margin-left: 2vw;
+   
+}
+.info{
+    margin-top: 5vh;
+    height: -10vh;
+}
